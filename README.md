@@ -49,6 +49,15 @@ weather-app/
    - Frontend will be on: http://localhost:3000
    - Backend API: http://localhost:4000
 
+## App Images and Screenshots
+Application running on frontend:
+![alt text](image-1.png)
+
+Running the docker-compose up command: The output should look like this:
+![Docker compose up](image.png)
+
+
+
 ## Development
 
 The application is configured for development with real-time code updates:
@@ -109,3 +118,5 @@ docker-compose down -v
 - If the frontend can't connect to the backend, make sure the environment variable `REACT_APP_API_URL` in docker-compose.yml is correctly set.
 - If the backend can't connect to the database, check the database environment variables in docker-compose.yml.
 - If you receive an error from the weather API, verify your API key is correct and the rate limits haven't been exceeded.
+
+
