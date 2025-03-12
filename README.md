@@ -71,7 +71,7 @@ The application is configured for development with real-time code updates:
 
 - Start the application:
   ```
-  docker-compose up
+  docker-compose up --watch
   ```
 
 - Start in detached (background) mode:
