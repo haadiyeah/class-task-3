@@ -27,7 +27,7 @@ services:
       - DB_USER=postgres
       - DB_PASSWORD=postgres
       - DB_NAME=weatherdb
-      - WEATHER_API_KEY=your_api_key_here
+      - WEATHER_API_KEY=049e801012d1df28e524392092278f9f
     depends_on:
       - database
     command: npm run dev

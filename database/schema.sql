@@ -1,0 +1,8 @@
+
+CREATE TABLE IF NOT EXISTS searches (
+  id SERIAL PRIMARY KEY,
+  city VARCHAR(255) NOT NULL,
+  search_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_search_time ON searches(search_time DESC);
