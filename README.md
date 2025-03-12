@@ -51,10 +51,11 @@ weather-app/
 
 ## App Images and Screenshots
 Application running on frontend:
-![alt text](image-1.png)
+![Frontend Running](image-1.png)
 
-Running the docker-compose up command: The output should look like this:
-![Docker compose up](image.png)
+Running the docker-compose up with watch command: 
+- The output should look like this:
+![Docker compose up with watch](image.png)
 
 
 
